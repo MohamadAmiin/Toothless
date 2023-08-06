@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Pacifico&display=swap');
+body{
+    margin: 0;
+    line-height: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+#bg{
+    background-image: url(bg.jpg);
+    background-attachment: fixed ;
+    background-size: 100% 100%;
+}
+
+/* the header style */
+header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2.5em;
+    border: 5px solid rgb(0, 0, 0);
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    
+}
+header img{
+    width: 500px;
+    height: 400px;
+    border-radius: 170px;
+    border: 10px solid rgb(0, 0, 0);
+    max-width: 100%;
+    
+    
+}
+header h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans KR', sans-serif;
+/* font-family: 'Pacifico', cursive; */
+
+}
+
+/* about the p and h2 */
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1ch;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    font-size: larger;
+}
+
+/* the main style */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+main img{
+    width: 100%;
+}
+
+
+li {
+    color: gray;
+}
+.characters a{
+    color: azure;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+
+a { text-decoration: none; color: brown;}
+a:hover{font-size: 1em; color: rgb(100, 110, 212);}
+
+/* about the footer */
+footer{
+    text-align: center;
+    background-color: rgb(3, 40, 62);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid rgb(157, 11, 11);
+}
+footer p{
+    color: #a72020;
+    font-size: larger;
+}
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+    img{
+        width: 60%;
+    }
+    
+  }
